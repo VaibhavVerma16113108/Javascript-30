@@ -1,0 +1,33 @@
+body{
+    background-image: url(assets/drums.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color: beige;
+}
+ul{
+    padding-inline-start: 0%;
+    list-style: none;
+    margin: 350px auto;
+    text-align: center;
+}
+
+.key{
+    border: 2px solid #ddd;
+    margin: 10px 10px;
+    display: inline-block;
+    padding: 20px;
+    transition: all 0.07s;
+}
+.key li{
+    font-weight: 700;
+    font-size: 2em;
+}
+.key span{
+    font-weight: 500;
+    font-size: 1em;
+    color: chartreuse;
+}
+.playing{
+    transform: scale(1.1);
+    border-color: yellow;
+}
