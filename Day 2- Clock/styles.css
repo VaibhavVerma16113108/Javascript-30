@@ -1,0 +1,35 @@
+body{
+    background: url(assets/cloud.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.container {
+    height: 370px;
+    width: 370px;
+    position: relative;
+    border: 3px solid green;
+  }
+  
+.center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.hand{
+    width: 50%;
+    height: 5px;
+    position: absolute;
+    background: black;
+    top: 50%;
+    transition: all 0.5s;
+    transform: rotate(90deg);
+    transform-origin: 100%;
+    transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
+}
+#clock-face{
+    border: 15px solid white;
+    border-radius: 50%;
+}
